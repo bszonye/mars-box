@@ -151,5 +151,7 @@ print_quality = Qfinal;  // or Qdraft
 *colony_frame(origin=[-Dwall, 0], $fa=print_quality/2);
 // Ceres, Io, Luna (median position)
 colony_frame(origin=[-Dwall/2, 0], $fa=print_quality/2);
-// Ganymede, Miranda
+// Ganymede
+*colony_frame(origin=[0, -Dwall/2], $fa=print_quality/2);
+// Miranda
 *colony_frame(origin=[0, -Dwall], $fa=print_quality/2);
